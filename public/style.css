@@ -1,0 +1,75 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    color: #65676b;
+    border: none;
+    padding: 10px 20px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #1877f2;
+    border-bottom: 3px solid #1877f2;
+    background: none;
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    border-color: #1877f2;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#status {
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.status-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.status-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.status-info {
+    background-color: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+} 
